@@ -1,0 +1,25 @@
+/* app css stylesheet */
+
+body {
+  background-color: lightgray;
+  font-family: Georgia, sans-serif;
+}
+
+.header {
+    font-size: x-large;
+    padding: 25px;
+    width: 100%;
+    margin: 0px auto;
+    color: salmon;
+}
+
+.jumbotron {
+    color: rgb(111, 144, 162);
+    background-color: rgb(225, 229, 240);
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  width: auto;
+}
