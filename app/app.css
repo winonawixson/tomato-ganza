@@ -19,7 +19,11 @@ body {
 }
 
 img {
-  max-width: 50%;
+  max-width: 20%;
   height: auto;
   width: auto;
+}
+
+#card {
+  background-color: white;
 }

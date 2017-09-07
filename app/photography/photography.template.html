@@ -1,37 +1,48 @@
-<div class="card">
-
-    <!--Card image-->
-    <img class="img-fluid" src="img/pinkFlowersAndBees.jpg" alt="Card image cap">
-
-    <!--Card content-->
-    <div class="card-body">
-        <!--Title-->
-        <h4 class="card-title">Fuzzy Bees</h4>
-        <!--Text-->
-        <p class="card-text">First day with my new camera, taking pictures in the park across the stree.</p>
-        <!-- <a href="#" class="btn btn-primary">Button</a> -->
-    </div>
-
+<div layout="row">
+  <div flex>First item in row</div>
+  <div flex>Second item in row</div>
+</div>
+<div layout="column">
+  <div flex>First item in column</div>
+  <div flex>Second item in column</div>
 </div>
 
 
-<div ng-controller="PhotographyController" ng-cloak>
-  <md-content class="md-padding" layout-xs="column" layout="row">
-    <div flex-xs flex-gt-xs="50" layout="column">
-      <md-card>
-        <img ng-src="img/pinkFlowersAndBees.jpg" class="md-card-image" alt="Washed Out">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">In-card mixed actions</span>
-          </md-card-title-text>
-        </md-card-title>
-        <md-card-content>
-          <p>
-            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-          </p>
-        </md-card-content>
-      </md-card>
-    </div>
-  </md-content>
+<div layout="row">
+<div id="card">
+  <md-card md-rowspan="1" md-colspan="1">
+  <img src="img/pinkFlowersAndBees.jpg" class="md-card-image" alt="image caption">
+  <md-card-content>
+    <h2>Card headline</h2>
+    <p>Card content</p>
+  </md-card-content>
+  <md-card-footer>
+    Card footer
+  </md-card-footer>
+  </md-card>
+</div>
+<div id="card">
+  <md-card md-rowspan="3" md-colspan="2">
+  <img src="img/pinkFlowersAndBees.jpg" class="md-card-image" alt="image caption">
+  <md-card-content>
+    <h2>Card headline</h2>
+    <p>Card content</p>
+  </md-card-content>
+  <md-card-footer>
+    Card footer
+  </md-card-footer>
+  </md-card>
+</div>
+<div id="card">
+  <md-card md-rowspan="3" md-colspan="2">
+  <img src="img/pinkFlowersAndBees.jpg" class="md-card-image" alt="image caption">
+  <md-card-content>
+    <h2>Card headline</h2>
+    <p>Card content</p>
+  </md-card-content>
+  <md-card-footer>
+    Card footer
+  </md-card-footer>
+  </md-card>
+</div>
 </div>
